@@ -1,0 +1,21 @@
+{
+    "max_conversation":64000,
+    "max_inactive_conversation_life_time":3600,
+    "nfq_number":64,
+    "gw_mode":false,
+    "run_iptables_command":true,
+    "rules" : [
+        {
+            "name":"test1",
+            "destination":"1.1.1.0/24",
+            "usage_time":"10s",
+            "protocol" : "any"
+        },
+        {
+            "name":"test2",
+            "destination":"cdn.kernel.org",
+            "usage_size":"100mb",
+            "protocol" : "any"
+        }
+    ]
+}

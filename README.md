@@ -20,13 +20,13 @@ To build this system run the following commands
 
 ## test 
 
-to run the unit test run :
+to run the unit tests run :
 
     go test 
 
 ## run 
 
-to run the system use the following command 
+to run the system, use the following command 
     
     simplefw.bin -f setting.json
 
@@ -41,7 +41,7 @@ The configuration is a JSON formatted file. following is the list of  valid conf
 - run_iptables_command : automatically add and remove related Iptables command.
 - rules :list of rules in the following format 
 - - name : name of rule 
-- - destination : destination network  could be 0.0.0.0/0 for all
+- - destination : destination network  could be 0.0.0.0/0 for all or a host name
 - - protocol : could be tcp,udp or any
 - - usage_time :  allowable time usage 
 - - usage_size :   allowable data usage
